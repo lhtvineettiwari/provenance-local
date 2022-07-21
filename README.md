@@ -1,7 +1,21 @@
-<div align="center">
-<img src="./docs/logo.svg" alt="Provenance"/>
-</div>
+
 <br/><br/>
+## Quick Start
+
+### Install Prerequisites
+
+sudo apt update
+sudo apt install pkg-config build-essential libssl-dev curl jq git libleveldb-dev -y
+sudo apt-get install manpages-dev -y
+
+The Provenance Blockchain is based on Cosmos, the [sdk introduction](https://github.com/cosmos/cosmos-sdk/blob/master/docs/intro/overview.md)
+is a useful starting point.
+
+Developers can use a local checkout and the make targets `make run` and `make localnet-start` to run a local development network.
+
+Note: Requires [Go 1.17+](https://golang.org/dl/)
+
+See Also: [Building](docs/Building.md)
 
 # Provenance Blockchain
 
@@ -40,16 +54,7 @@ is the first and primary user of the Provenance Blockchain.
 
 The Provenance networks are based on work from the private [Figure Technologies](https://figure.com) blockchain launched in 2018.
 
-## Quick Start
 
-The Provenance Blockchain is based on Cosmos, the [sdk introduction](https://github.com/cosmos/cosmos-sdk/blob/master/docs/intro/overview.md)
-is a useful starting point.
-
-Developers can use a local checkout and the make targets `make run` and `make localnet-start` to run a local development network.
-
-Note: Requires [Go 1.17+](https://golang.org/dl/)
-
-See Also: [Building](docs/Building.md)
 
 ## Active Networks
 
